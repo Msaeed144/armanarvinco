@@ -1,26 +1,42 @@
+/* import fonts to project */
+@import url(../../public/fonts/css/fontiran.css);
+@import url(../../public/fonts/css/Gofteh.css);
+/* import tailwind to project */
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary:#FF9900
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: dana;
+}
+.header {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font: bold 1.5rem;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+.header li {
+  padding: 0 .5em .25em;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: .3s;
+}
+.header li:hover {
+  color: #fff;
+}
+.header li:before {
+  content: "";
+  position: absolute;
+  inset: calc(100% - 3px) 0 0 0; /* 3px = the thickness */
+  background: #ce4f20; /* the color */
+  scale: 0 1;
+  transition: .3s;
+}
+.header li:hover:before {
+  scale: 1;
+  translate: 0;
 }
