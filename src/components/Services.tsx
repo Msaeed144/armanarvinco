@@ -1,7 +1,7 @@
 import Image from "next/image"
 function Services() {
   return (
-    <div className="w-full mb-12">
+    <div className="w-full lg:mb12 mb-44">
         <div className=" w-full bg-[url('/images/pics/about-pic1.jpg')] bg-cover backdrop-blur-3xl h-96 relative">
         <div className=" bg-black  backdrop-blur-sm w-full h-full opacity-40">
         

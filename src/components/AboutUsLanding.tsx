@@ -58,7 +58,7 @@ function AboutUsLanding() {
                 </div>
             </div>
           </div>
-          <div className="lg:w-1/2 ml-8 lg:mb-0 mb-20">
+          <div className="lg:w-1/2 ml-8 lg:mb-0 mb-20 gl:mt0 mt-7 lg:mr-0 mr-12">
             <div className=" relative mr-20 lg:mr-0 lg:ml-12">
                 <div className="flex gap-3  lg:gap-7 items-center p-8 ">
                     <p className="lg:text-5xl text-3xl mt-1 text-primary font-bold">10+</p>
