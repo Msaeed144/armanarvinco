@@ -1,20 +1,68 @@
-import Image from "next/image"
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 function Header() {
+  const [hamber, setHamber] = useState(false);
+  useEffect(() => {
+    console.log(hamber);
+  }, [hamber]);
   return (
-    <div className=" w-full  py-5">
-        <div className="flex container mx-auto justify-between">
-            <ul className="header flex items-center gap-12 text-xl ">
-                <li>خانه</li>
-                <li>پروژه ها</li>
-                <li>درباره ما</li>
-                <li>تماس با ما</li>
-            </ul>
-            <div>
-                <Image src="/images/pics/header-logo.png" width={120} height={60} alt="logo" />
-            </div>
+    <div className=" w-full  py-5 relative">
+      <div className="flex container mx-auto justify-between ">
+        <ul className="header md:flex items-center gap-12 text-xl hidden">
+          <li>
+            <Link href='/'>
+               خانه  
+            </Link>
+          </li>
+          <li>پروژه ها</li>
+          <li>
+            <Link href='/about-us '> درباره ما</Link>
+          </li>
+          <li>تماس با ما</li>
+        </ul>
+        <div className={`w-72 h-screen ${hamber ? "block " : "hidden"} transition-all bg-white absolute right-0 top-0`}>
+        <ul className=" items-center gap-12 text-xl mt-[6.5rem] mr-8 text-primary">
+          <li className="mb-4 mt-8">خانه</li>
+          <li className="my-4">پروژه ها</li>
+          <li className="my-4">درباره ما</li>
+          <li className="my-4">تماس با ما</li>
+        </ul>
         </div>
+        <div
+          className="md:hidden block cursor-pointer mt-8 z-10 mr-4"
+          onClick={() => setHamber(!hamber)}
+        >
+          <div
+            className={` w-7 my-1 h-1 rounded-md  transition-all duration-300 ${
+              hamber ? "rotate-45 translate-y-2 bg-primary" : "bg-white"
+            }`}
+          ></div>
+          <div
+            className={`w-7 my-1 h-1 rounded-md  transition-all duration-300 ${
+              hamber ? "opacity-0 bg-primary" : "opacity-100 bg-white"
+            }`}
+          ></div>
+          <div
+            className={`w-7 my-1 h-1 rounded-md  transition-all duration-300 ${
+              hamber ? "-rotate-45 -translate-y-2 bg-primary" : "bg-white"
+            }`}
+          ></div>
+        </div>
+
+        <div>
+          <Image
+          className="ml-4"
+            src="/images/pics/header-logo.png"
+            width={120}
+            height={60}
+            alt="logo"
+          />
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

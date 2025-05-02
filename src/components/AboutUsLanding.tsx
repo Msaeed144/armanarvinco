@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function AboutUsLanding() {
   return (
-    <div className="h-screen relative">
+    <div className="pb-32 relative">
       <div className=" absolute bottom-0 left-0">
         <Image
           src="/images/pics/aboutus-landing-paint.png"
@@ -11,9 +11,9 @@ function AboutUsLanding() {
           alt="نیروگاه"
         />
       </div>
-      <div className="w-full pt-28">
-        <div className=" container mx-auto flex flex-row-reverse justify-center">
-          <div className="w-1/2 text-right">
+      <div className="w-full pt-28 pb-20 lg:pb-0 lg:px-0 px-4">
+        <div className=" lg:container lg:mx-auto lg:flex flex-row-reverse justify-center">
+          <div className="lg:w-1/2 text-right">
             <div className="flex gap-1">
               <Image
                 src="/images/icons/tick.svg"
@@ -58,17 +58,17 @@ function AboutUsLanding() {
                 </div>
             </div>
           </div>
-          <div className="w-1/2 ml-8">
-            <div className=" relative ml-12">
-                <div className="flex  gap-7 items-center p-8 ">
-                    <p className="text-5xl mt-1 text-primary font-bold">10+</p>
-                    <div className="text-2xl">
+          <div className="lg:w-1/2 ml-8 lg:mb-0 mb-20">
+            <div className=" relative mr-20 lg:mr-0 lg:ml-12">
+                <div className="flex gap-3  lg:gap-7 items-center p-8 ">
+                    <p className="lg:text-5xl text-3xl mt-1 text-primary font-bold">10+</p>
+                    <div className="lg:text-2xl text-xl">
                     <p className="mb-2">سال</p>
                     <p className="mt-2">تجربه</p>
                     </div>
                 </div>
                 <div className=" absolute top-0 left-0">
-                <div className=" relative">
+                <div className=" relative lg:w-full w-3/4">
                         <Image className=" rounded-3xl" src="/images/pics/about-pic1.jpg" width={380} height={380} alt="سایت" />
                         <div className=" absolute top-2/3 left-1/2 w-full border-8 rounded-3xl border-white"> 
                         <Image className=" rounded-3xl" src="/images/pics/about-pic2.jpg" width={450} height={450} alt="سایت" />
