@@ -9,7 +9,7 @@ function TopLanding() {
         </div>
       <Header />
       <div className="lg:container  mx-auto flex justify-end mt-28">
-        <div className=" text-white z-10  ">
+        <div className=" text-white z-10  ml-12">
           <h1 className="lg:ml-0 ml-4 lg:text-5xl text-[22px] font-extrabold">شرکت مهندسی آرمان آروین پارتاک</h1>
           <p className="lg:text-xl text-sm mt-4 ">باید یک متن دلخواه برای اینجا داشته باشیم که این فضا پر بشه</p>
           <p className="text-lg mt-4 font-light">برای اینجا هم همینطور باید پر بشه</p>
@@ -21,7 +21,7 @@ function TopLanding() {
           </div>
         </div>
       </div>
-      <div className="z-10 lg:flex justify-around container mx-auto lg:mt-48 mt-12 text-white">
+      <div className="z-10 lg:flex justify-around container mx-auto lg:mt-48 mt-12 pr-3 text-white">
         <div className=" z-10 flex items-center gap-2">
          <Image src="/images/icons/tick.svg" width={20} height={20} alt="تیک" />
           <p>طراحی و مهندسی، مشاوره و عیب یابی</p>
