@@ -22,7 +22,7 @@ function Header() {
           </li>
           <li>تماس با ما</li>
         </ul>
-        <div className={`w-72 h-screen ${hamber ? "block " : "hidden"} transition-all bg-white absolute right-0 top-0`}>
+        <div className={` z-20 w-72 h-screen ${hamber ? "block " : "hidden"} transition-all bg-white absolute -right-4 top-0`}>
         <ul className=" items-center gap-12 text-xl mt-[6.5rem] mr-8 text-primary">
           <li className="mb-4 mt-8">خانه</li>
           <li className="my-4">پروژه ها</li>
@@ -31,7 +31,7 @@ function Header() {
         </ul>
         </div>
         <div
-          className="md:hidden block cursor-pointer mt-8 z-10 mr-4"
+          className="md:hidden z-40 block cursor-pointer mt-8 mr-4"
           onClick={() => setHamber(!hamber)}
         >
           <div

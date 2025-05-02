@@ -58,17 +58,17 @@ function AboutUsLanding() {
                 </div>
             </div>
           </div>
-          <div className="lg:w-1/2 ml-8 lg:mb-0 mb-20 gl:mt0 mt-7 lg:mr-0 mr-12">
-            <div className=" relative mr-20 lg:mr-0 lg:ml-12">
+          <div className="lg:w-1/2 ml-8 lg:mb-0 mb-20 gl:mt-0 mt-7 lg:mr-0  lg:block hidden">
+            <div className=" relative mr-32 lg:mr-0 lg:ml-12">
                 <div className="flex gap-3  lg:gap-7 items-center p-8 ">
                     <p className="lg:text-5xl text-3xl mt-1 text-primary font-bold">10+</p>
-                    <div className="lg:text-2xl text-xl">
-                    <p className="mb-2">سال</p>
-                    <p className="mt-2">تجربه</p>
-                    </div>
+                    <div className="lg:block flex lg:text-2xl text-xl">
+                    <p className="lg:mb-2 mb-0">سال</p>
+                    <p className="lg:mt-2 mt-0">تجربه</p>
+                  </div>
                 </div>
-                <div className=" absolute top-0 left-0">
-                <div className=" relative lg:w-full w-3/4">
+                <div className="lg:absolute lg:top-0 lg:left-0">
+                <div className=" lg:relative lg:w-full">
                         <Image className=" rounded-3xl" src="/images/pics/about-pic1.jpg" width={380} height={380} alt="سایت" />
                         <div className=" absolute top-2/3 left-1/2 w-full border-8 rounded-3xl border-white"> 
                         <Image className=" rounded-3xl" src="/images/pics/about-pic2.jpg" width={450} height={450} alt="سایت" />
