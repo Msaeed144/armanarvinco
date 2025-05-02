@@ -23,8 +23,8 @@ function AboutUsLanding() {
               />
               <p className=" text-xl">درباره ما</p>
             </div>
-            <h3 className=" text-4xl my-8">شرکت مهندسی آرمان آروین پارتاک</h3>
-            <p className=" text-2xl font-bold my-8">طراحی و مهندسی، مشاوره و عیب یابی </p>
+            <h3 className=" text-2xl md:text-4xl my-8">شرکت مهندسی آرمان آروین پارتاک</h3>
+            <p className=" text-xl md:text-2xl font-bold my-8">طراحی و مهندسی، مشاوره و عیب یابی </p>
             <p className=" font-light my-8">ساختار اصلی شرکت متشکل از واحدهای فنی و مهندسی، بازرگانی و تامین، ساخت و تولید و همچنین فروش و توسعه بازار می‌باشد</p>
             <div className="flex mt-10">
                 <div>
@@ -54,13 +54,13 @@ function AboutUsLanding() {
 
                 <div className="w-44 h-44 z-10 bg-[#F5F5F5] rounded-lg p-4 mr-5 mt-3 ">
                     <p className="text-center text-5xl mt-3 mb-6 text-primary">71+</p>
-                    <p className=" text-center font-bold text-lg ">پروژه انجام شده</p>
+                    <p className=" text-center font-bold text-base md:text-lg ">پروژه انجام شده</p>
                 </div>
             </div>
           </div>
-          <div className="lg:w-1/2 ml-8 lg:mb-0 mb-20 gl:mt-0 mt-7 lg:mr-0  lg:block hidden">
-            <div className=" relative mr-32 lg:mr-0 lg:ml-12">
-                <div className="flex gap-3  lg:gap-7 items-center p-8 ">
+          <div className="lg:w-1/2 ml-8 lg:mb-0 mb-20 gl:mt-0 mt-7  lg:block hidden ">
+            <div className=" relative mr-32 lg:mr-0 lg:ml-12 ">
+                <div className="flex gap-3  lg:gap-7 items-center p-8 tajrobeh ">
                     <p className="lg:text-5xl text-3xl mt-1 text-primary font-bold">10+</p>
                     <div className="lg:block flex lg:text-2xl text-xl">
                     <p className="lg:mb-2 mb-0">سال</p>

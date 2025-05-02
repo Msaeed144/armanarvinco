@@ -39,3 +39,9 @@ body {
   scale: 1;
   translate: 0;
 }
+
+@media screen and (max-width:1280px) and (min-width:1024PX) {
+  .tajrobeh {
+    margin-right: -120PX !important;
+  }
+}

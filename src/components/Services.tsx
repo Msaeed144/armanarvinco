@@ -21,7 +21,7 @@ function Services() {
                 <p className="md:leading-9 leading-6 text-white text-justify mt-6 md:text-base text-sm font-bold">ساختار اصلی شرکت متشکل از واحدهای فنی و مهندسی، بازرگانی و تامین، ساخت و تولید و همچنین فروش و توسعه بازار می‌باشد که با به کارگیری کارشناسان با تجربه و توانمند در تمامی بخش‌ها موجب ارائه خدمات با کیفیت و امکان ارائه قیمت‌های رقابتی به کارفرمایان گردیده است.</p>
             </div>
         </div>
-        <div className="w-full flex justify-center md:relative overflow-x-scroll">
+        <div className="w-full flex justify-center md:relative md:overflow-x-visible overflow-x-scroll">
             <div className=" md:container md:max-auto md:w-4/5 w-full bg-white -bottom-24 md:absolute p-4 rounded-2xl lg:shadow-2xl  flex md:flex-row items-center justify-around">
                 <div>
                 <div className="w-24 h-20 flex justify-center md:mt-0 mt-4">

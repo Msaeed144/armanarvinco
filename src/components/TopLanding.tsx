@@ -4,7 +4,7 @@ function TopLanding() {
   return (
     <div className="w-full  px-0">
 <div className="  bg-[url('/images/pics/landingPic.jpg')] bg-cover pb-48">
-<div className=" bg-black lg:block hidden  backdrop-blur-sm w-full h-full opacity-30 absolute z-0 p-22">
+<div className=" bg-black lg:block hidden  backdrop-blur-sm w-full h-full opacity-25 absolute z-0 p-22">
         
         </div>
       <Header />
