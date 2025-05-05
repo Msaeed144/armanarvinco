@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function AboutUsLanding() {
   return (
@@ -46,10 +47,10 @@ function AboutUsLanding() {
                         <p className="font-extralight text-sm">اجرای پروژه‌های تصفیه آب، پساب و فاضلاب های صنعتی و بهداشتی</p>
                     </li>
                 </ul>
-                <div className="flex bg-primary w-fit p-0.5 rounded-md cursor-pointer mt-5">
+                <Link href="/projects" className="flex bg-primary w-fit p-0.5 rounded-md cursor-pointer mt-5">
                               <Image src="/images/icons/up-right-arrow.svg" width={30} height={30} alt="فلش" />
                               <span className="py-1 px-2 rounded-md bg-white text-black z-10 text-lg font-light">پروژه های ما</span>
-                            </div>
+                            </Link>
                 </div>
 
                 <div className="w-44 h-44 z-10 bg-[#F5F5F5] rounded-lg p-4 mr-5 mt-3 ">

@@ -16,18 +16,31 @@ function Header() {
                خانه  
             </Link>
           </li>
-          <li>پروژه ها</li>
+          <li>
+            <Link href="/projects">پروژه ها</Link>
+           </li>
           <li>
             <Link href='/about-us '> درباره ما</Link>
           </li>
-          <li>تماس با ما</li>
+          <li>
+            <Link href="/contact-us">تماس با ما</Link>
+          </li>
         </ul>
         <div className={` z-20 w-72 h-screen ${hamber ? "block " : "hidden"} transition-all bg-white absolute -right-4 top-0`}>
         <ul className=" items-center gap-12 text-xl mt-[6.5rem] mr-8 text-primary">
-          <li className="mb-4 mt-8">خانه</li>
-          <li className="my-4">پروژه ها</li>
-          <li className="my-4">درباره ما</li>
-          <li className="my-4">تماس با ما</li>
+          <li className="mb-4 mt-8">
+            <Link href='/'>خانه</Link>
+          </li>
+          <li className="my-4">
+          <Link href="/projects">پروژه ها</Link>
+
+          </li>
+          <li className="my-4">
+            <Link href='/about-us'> درباره ما</Link>
+          </li>
+          <li className="my-4">
+            <Link href="/contact-us">تماس با ما</Link>
+          </li>
         </ul>
         </div>
         <div

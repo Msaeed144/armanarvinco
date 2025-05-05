@@ -2,18 +2,26 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import path from "path"
 import { useEffect } from "react"
 
 function BreadCrumb() {
   const pathName = usePathname()
+  const splitPathName = pathName.split("/")
   useEffect(()=>{
-    console.log(pathName)
+    console.log(splitPathName)
   },[])
   const pathNameHandler = () =>{
     if (pathName == "/about-us"){
       return "درباره ما"
     }else if (pathName == "/contact-us"){
       return "تماس با ما"
+    }else if(pathName == "/projects"){
+      return "پروژه ها"
+    }else if(splitPathName.length>2){
+      const x = `پروژه شماره `
+      const y = splitPathName[2]
+      return x + y
     }
     
   }
@@ -23,8 +31,25 @@ function BreadCrumb() {
         <li className="text-white"><Link href={"/"}>خانه</Link> </li>
         <li>
           <div className="flex gap-2 items-center mx-3 text-primary">
-            <div className="mt-2 text-3xl">*</div>
-            <div><Link href={pathName}>{pathNameHandler()}</Link></div>
+            {
+              splitPathName.length==2 &&
+                <>
+                       <div className="mt-2 text-3xl">*</div>
+                       <div><Link href={pathName}>{pathNameHandler()}</Link></div>
+                </>
+            }
+            {
+              splitPathName.length ==3 &&
+              <>
+                  <div className="mt-2 text-3xl text-white">*</div>
+                  <div className="text-white">
+                    <Link href="/projects">پروژه ها </Link>
+                  </div>
+                  <div className="mt-2 text-3xl">*</div>
+                  <div><Link href={pathName}>{pathNameHandler()}</Link></div>
+              </>
+            }
+
           </div>
         </li>
       </ul>

@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Header from "./Header"
 import Image from "next/image"
 function TopLanding() {
@@ -14,10 +15,10 @@ function TopLanding() {
           <p className="lg:text-xl text-sm mt-4 ">باید یک متن دلخواه برای اینجا داشته باشیم که این فضا پر بشه</p>
           <p className="text-lg mt-4 font-light">برای اینجا هم همینطور باید پر بشه</p>
           <div className="flex justify-end mt-4 ml-12">
-            <div className="flex bg-primary w-fit p-0.5 rounded-md cursor-pointer">
+            <Link href="/projects" className="flex bg-primary w-fit p-0.5 rounded-md cursor-pointer">
               <Image src="/images/icons/up-right-arrow.svg" width={30} height={30} alt="فلش" />
               <span className="py-1 px-2 rounded-md bg-white text-black text-lg font-light">پروژه های ما</span>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
