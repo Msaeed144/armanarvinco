@@ -26,13 +26,13 @@ function Footer() {
             <Link className=" block my-3" href="/">
               خانه
             </Link>
-            <Link className=" block my-3" href="/#">
+            <Link className=" block my-3" href="/projects">
               پروژه های ما
             </Link>
-            <Link className=" block my-3" href="/#">
+            <Link className=" block my-3" href="/contact-us">
               ارتباط با ما
             </Link>
-            <Link className=" block my-3" href="/#">
+            <Link className=" block my-3" href="/about-us">
               درباره ما
             </Link>
           </div>

@@ -12,10 +12,10 @@ function Projects () {
                 </div>
                 <div className=" absolute top-0 w-full">
                     <Header />
-                    <div className="mt-16 px-24 text-white">
-                        <h3 className="font-bold text-4xl">پروژه های ما</h3>
+                    <div className="mt-16 lg:px-24 px-4 text-white">
+                        <h3 className="font-bold text-2xl lg:text-4xl">پروژه های ما</h3>
                     </div>
-                    <div className="px-24 mt-6">
+                    <div className="lg:px-24 px-4 mt-6">
                         <BreadCrumb />
                     </div>
                 </div>

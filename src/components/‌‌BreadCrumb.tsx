@@ -34,19 +34,19 @@ function BreadCrumb() {
             {
               splitPathName.length==2 &&
                 <>
-                       <div className="mt-2 text-3xl">*</div>
-                       <div><Link href={pathName}>{pathNameHandler()}</Link></div>
+                       <div className="mt-2 text-xl lg:text-3xl">*</div>
+                       <div><Link className="lg:text-xl text-lg" href={pathName}>{pathNameHandler()}</Link></div>
                 </>
             }
             {
               splitPathName.length ==3 &&
               <>
-                  <div className="mt-2 text-3xl text-white">*</div>
+                  <div className="mt-2 text-xl lg:text-3xl text-white">*</div>
                   <div className="text-white">
-                    <Link href="/projects">پروژه ها </Link>
+                    <Link className=" text-lg lg:text-xl" href="/projects">پروژه ها </Link>
                   </div>
-                  <div className="mt-2 text-3xl">*</div>
-                  <div><Link href={pathName}>{pathNameHandler()}</Link></div>
+                  <div className="mt-2 text-xl lg:text-3xl">*</div>
+                  <div><Link className=" text-lg lg:text-xl" href={pathName}>{pathNameHandler()}</Link></div>
               </>
             }
 
