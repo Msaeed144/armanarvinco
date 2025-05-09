@@ -8,7 +8,7 @@ function ProjectsList() {
         <div className=' grid md:grid-cols-2 grid-cols-1 lg:gap-24'>
                 {projects.map(project => (
                     <div key={project.id} className=''>
-                        <ProjectCart id={project.id} title={project.title} banerImage={project.banerImage} />
+                        <ProjectCart key={project.id} id={project.id} title={project.title} banerImage={project.banerImage} />
                     </div>
                 ))}
         </div>
