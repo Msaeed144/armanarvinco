@@ -72,7 +72,7 @@ function AboutUsLanding() {
                 <div className=" lg:relative lg:w-full">
                         <Image className=" rounded-3xl" src="/images/pics/about-pic1.jpg" width={380} height={380} alt="سایت" />
                         <div className=" absolute top-2/3 left-1/2 w-full border-8 rounded-3xl border-white"> 
-                        <Image className=" rounded-3xl" src="/images/pics/about-pic2.jpg" width={450} height={450} alt="سایت" />
+                        <Image className=" rounded-3xl" src="/images/projects/project5-1.jpg" width={450} height={450} alt="سایت" />
                         </div>
 
                 </div>
