@@ -2,7 +2,10 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import ProjectsList from "@/components/ProjectsList"
 import BreadCrumb from "@/components/‌‌BreadCrumb"
-
+import { Metadata } from "next"
+export const metadata :Metadata = {
+    title:"پروژه ها "
+}
 function Projects () {
     return (
         <div>

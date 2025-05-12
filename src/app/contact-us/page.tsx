@@ -2,7 +2,10 @@ import ContactUsSection from "@/components/ContactUsSection"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import BreadCrumb from "@/components/‌‌BreadCrumb"
-
+import { Metadata } from "next"
+export const metadata :Metadata = {
+    title:" ارتباط با ما"
+}
 function ContactUs () {
     return (
         <div>

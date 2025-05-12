@@ -3,7 +3,10 @@ import AboutUsLanding from "@/components/AboutUsLanding"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import BreadCrumb from "@/components/‌‌BreadCrumb"
-
+import { Metadata } from "next"
+export const metadata :Metadata = {
+    title:" درباره ما"
+}
 function AboutUsPage() {
   return (
     <div>
