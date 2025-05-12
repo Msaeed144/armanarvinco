@@ -61,13 +61,24 @@ function Footer() {
             ما متعهد به ارائه راهکارهای صنعتی شخصی‌سازی‌شده در حوزه آب و فاضلاب
             هستیم هستیم.
           </p>
-          <div className=" flex justify-end px-8 py-2 ">
+          <div className=" flex gap-4 justify-end px-8 py-2 ">
             <Link
               href="https://www.instagram.com/arman.arvin.co/"
               className="z-10 p-2 border rounded-full border-zinc-700"
             >
               <Image
                 src="/images/icons/insta.svg"
+                width={20}
+                height={20}
+                alt="logo"
+              />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/arman-arvin-partak//"
+              className="z-10 p-2 border rounded-full border-zinc-700"
+            >
+              <Image
+                src="/images/icons/linkedin-orange.svg"
                 width={20}
                 height={20}
                 alt="logo"

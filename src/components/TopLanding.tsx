@@ -12,8 +12,7 @@ function TopLanding() {
       <div className="lg:container  mx-auto flex justify-end mt-28">
         <div className=" text-white z-10  ml-12">
           <h1 className="lg:ml-0 ml-4 lg:text-5xl text-[22px] font-extrabold">شرکت مهندسی آرمان آروین پارتاک</h1>
-          <p className="lg:text-xl text-sm mt-4 ">باید یک متن دلخواه برای اینجا داشته باشیم که این فضا پر بشه</p>
-          <p className="text-lg mt-4 font-light">برای اینجا هم همینطور باید پر بشه</p>
+          <p className="lg:text-xl text-sm mt-4 ">طراحی، ساخت و اجرای سیستم های تصفیه آب و پساب</p>
           <div className="flex justify-end mt-4 ml-12">
             <Link href="/projects" className="flex bg-primary w-fit p-0.5 rounded-md cursor-pointer">
               <Image src="/images/icons/up-right-arrow.svg" width={30} height={30} alt="فلش" />
@@ -29,10 +28,11 @@ function TopLanding() {
         </div>
         <div className="z-10 flex items-center gap-2">
         <Image src="/images/icons/tick.svg" width={20} height={20} alt="تیک" />
-        <p>تامین و ساخت تجهیزات آب و فاضلاب</p>
+        <p>تامین و ساخت پکیج های تصفیه آب و پساب</p>
         </div>
         <div className=" z-10 flex items-center gap-2">
         <Image src="/images/icons/tick.svg" width={20} height={20} alt="تیک" />
+        
         <p className="text-[11px] lg:text-base">اجرای پروژه‌های تصفیه آب، پساب و فاصلاب های صنعتی و بهداشتی</p>
         </div>
         
