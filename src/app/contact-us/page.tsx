@@ -12,17 +12,20 @@ function ContactUs () {
                 </div>
                 <div className=" absolute top-0 w-full">
                     <Header />
-                    <div className="mt-16 px-24 text-white">
-                        <h3 className="font-bold text-4xl">تماس با ما</h3>
+                    <div className="mt-16 lg:px-24 px-3 text-white">
+                        <h3 className="font-bold text-2xl lg:text-4xl">تماس با ما</h3>
                     </div>
-                    <div className="px-24 mt-6">
+                    <div className="lg:px-24 px-3 mt-6">
                         <BreadCrumb />
                     </div>
                 </div>
                 </div>
             </div>
             <div>
+                <div className="mb-6">
                 <ContactUsSection />
+
+                </div>
                 <Footer />
             </div>
         </div>
