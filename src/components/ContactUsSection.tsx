@@ -78,7 +78,7 @@ function ContactUsSection() {
                 <Image src="/images/icons/locationIcon.svg" width={20} height={20} alt="لوکیشن" />
                 <p className="text-sm pt-2">اصفهان - خیابان هشت بهشت غربی - چهار راه ملک -پلاک ۱۱۶ - ساختمان روژین - طبقه ۵ واحد ۱۰</p>
               </div>
-              <Link href="https://maps.google.com/maps?q=Isfahan%2BProvince%2C%2BIsfahan%2C%2BBozorgmehr%2BSt%2C%2BMM2P%2BVWW%2C%2BIran&sll=32.65223718458522,51.687305979430676" className="block lg:w-[26rem] w-96 mr-4 bg-white mt-2">
+              <Link href="https://maps.google.com/maps?q=Isfahan%2BProvince%2C%2BIsfahan%2C%2BBozorgmehr%2BSt%2C%2BMM2P%2BVWW%2C%2BIran&sll=32.65223718458522,51.687305979430676" className="block lg:w-[26rem] w-72 lg:mr-4 bg-white mt-2">
                 <Image className="opacity-100 z-40 rounded-xl" src="/images/pics/office.png" width={3000} height={400} alt="لوکیشن شرکت" />
               </Link>
             </div>
@@ -87,9 +87,9 @@ function ContactUsSection() {
 
               <div className="flex items-center mb-4">
                 <Image src="/images/icons/locationIcon.svg" width={20} height={20} alt="لوکیشن" />
-                <p className="text-sm pt-2 "> خیابان اول شمالی. یا حمزه آباد. خیابان کشاورز. کوچه بنفشه</p>
+                <p className="text-sm pt-2 ">حمزه آباد - خیابان کشاورز - کوچه بنفشه - پلاک ۴</p>
               </div>
-              <Link href="https://maps.app.goo.gl/jQtpgk8D9KzZCjFt5?g_st=aw" className=" z-50 block lg:w-[26rem] w-96  mr-4 bg-white mt-2">
+              <Link href="https://maps.app.goo.gl/jQtpgk8D9KzZCjFt5?g_st=aw" className=" z-50 block lg:w-[26rem] w-72  lg:mr-4 bg-white mt-2">
                 <Image className="opacity-100 z-40 rounded-xl" src="/images/pics/factory.png" width={3000} height={400} alt="لوکیشن شرکت" />
               </Link>
               
