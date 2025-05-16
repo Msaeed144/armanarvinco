@@ -38,11 +38,14 @@ function Footer() {
           </div>
           <div>
             <p className=" font-bold text-sm md:text-xl">پیوند های مرتبط</p>
-            <Link className="md:text-base text-sm block my-3" href="https://www.tpww.ir/">
-              شرکت آب و فاضلاب تهران
+            <Link className="md:text-base text-sm block my-3" href="https://www.sanganco.ir/">
+              مجتمع فولاد سنگان
             </Link>
-            <Link className=" block my-3" href="https://www.moe.gov.ir/">
-              وزارت نیرو
+            <Link className=" block my-3" href="https://aftabor.com/">
+              پالایشگاه نفت آفتاب
+            </Link>
+            <Link className=" block my-3" href="https://isipo.ir/">
+              شرکت شهرک های صنعتی
             </Link>
           </div>
         </div>
