@@ -18,18 +18,6 @@ function BreadCrumb() {
       return "تماس با ما";
     } else if (pathName == "/projects") {
       return "پروژه ها";
-    }else if (pathName == "/equipment-supply"){
-      return "تامین تجهیزات"
-    } else if (pathName =="/designing"){
-      return "طراحی"
-    } else if (pathName == "/Installation-setup"){
-      return "نصب و راه اندازی"
-    }else if (pathName == "/operation"){
-      return "بهره برداری"
-    }else if (pathName == "/consulting-troubleshooting"){
-      return "مشاوره و عیب یابی"
-    }else if (pathName == "/services"){
-      return "خدمات و محصولات"
     } else if (splitPathName.length > 2 && splitPathName[1]=="projects" ) {
       const x = `پروژه شماره `;
       const y = splitPathName[2];
