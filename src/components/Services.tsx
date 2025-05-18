@@ -24,35 +24,35 @@ function Services() {
         </div>
         <div className="w-full flex justify-center md:relative md:overflow-x-visible overflow-x-scroll">
             <div className=" md:container md:max-auto md:w-4/5 w-full bg-white -bottom-24 md:absolute p-4 rounded-2xl lg:shadow-2xl  flex md:flex-row items-center justify-around">
-                <Link href="/designing" >
+                <Link href="/services/designing" >
                 <div className="w-24 h-20 flex justify-center md:mt-0 mt-4">
                 <Image src="/images/icons/design.svg" width={60} height={60} alt="تیک" />
                     </div>
                     <p className="md:text-base text-xs text-center mt-4">طراحی</p>
                 </Link>
                 <div className="w-[1px] h-28 bg-gray-300 md:block hidden"></div>
-                <Link href="/equipment-supply">
+                <Link href="/services/equipment-supply">
                 <div className="w-24  h-20 flex justify-center">
                 <Image className="mt-4" src="/images/icons/supply.svg" width={80} height={80} alt="تیک" />
                     </div>
                     <p className="md:text-base text-xs text-center mt-4">تامین تجهیزات</p>
                 </Link>
                 <div className="w-[1px] h-28 bg-gray-300 md:block hidden"></div>
-                <Link href="/Installation-setup">
+                <Link href="/services/Installation-setup">
                 <div className="w-24  h-20 flex justify-center">
                 <Image className="lg:mr-12" src="/images/icons/launch.svg" width={60} height={60} alt="تیک" />
                     </div>
                     <p className="md:text-base text-[10px] text-center mt-4">ساخت، نصب و راه اندازی</p>
                 </Link>
                 <div className="w-[1px] h-28 bg-gray-300 md:block hidden"></div>
-                <Link href="/operation">
+                <Link href="/services/operation">
                 <div className="w-24 h-20 flex justify-center">
                 <Image src="/images/icons/usage.svg" width={60} height={60} alt="تیک" />
                     </div>
                     <p className="md:text-base text-xs text-center mt-4">بهره برداری</p>
                 </Link>
                 <div className="w-[1px] h-28 bg-gray-300 md:block hidden"></div>
-                <Link href="/consulting-troubleshooting">
+                <Link href="/services/consulting-troubleshooting">
                 <div className="w-24 h-20 flex justify-center">
                         <Image src="/images/icons/consult.svg" width={60} height={60} alt="تیک" />
                     </div>

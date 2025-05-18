@@ -30,10 +30,22 @@ function BreadCrumb() {
       return "مشاوره و عیب یابی"
     }else if (pathName == "/services"){
       return "خدمات و محصولات"
-    } else if (splitPathName.length > 2) {
+    } else if (splitPathName.length > 2 && splitPathName[1]=="projects" ) {
       const x = `پروژه شماره `;
       const y = splitPathName[2];
       return x + y;
+    } else if (splitPathName.length >2 && splitPathName [1]=="services") {
+      if(splitPathName[2]=="equipment-supply"){
+        return "تامین تجهیزات"
+      }else if (splitPathName[2]=="designing"){
+        return "طراحی"
+      }else if(splitPathName[2]=="Installation-setup"){
+        return "نصب و راه اندازی"
+      }else if (splitPathName[2]=="operation"){
+        return "بهره برداری"
+      }else if (splitPathName[2]=="consulting-troubleshooting"){
+        return  "مشاوره و عیب یابی"
+      }
     }
   };
   return (
@@ -61,7 +73,7 @@ function BreadCrumb() {
                 </div>
               </>
             )}
-            {splitPathName.length == 3 && (
+            {splitPathName.length == 3 &&splitPathName[1]=="projects" && (
               <>
                 <div>
                   <Image
@@ -70,10 +82,10 @@ function BreadCrumb() {
                     height={15}
                     alt="left"
                   />
-                </div>{" "}
+                </div>
                 <div className="text-white">
                   <Link className=" text-lg lg:text-xl" href="/projects">
-                    پروژه ها{" "}
+                    پروژه ها
                   </Link>
                 </div>
                 <div>
@@ -83,7 +95,7 @@ function BreadCrumb() {
                     height={15}
                     alt="left"
                   />
-                </div>{" "}
+                </div>
                 <div>
                   <Link className=" text-lg lg:text-xl" href={pathName}>
                     {pathNameHandler()}
@@ -91,6 +103,37 @@ function BreadCrumb() {
                 </div>
               </>
             )}
+             {splitPathName.length == 3 &&splitPathName[1]=="services" && (
+               <>
+               <div>
+                 <Image
+                   src="/images/icons/left-white-arrow.svg"
+                   width={15}
+                   height={15}
+                   alt="left"
+                 />
+               </div>
+               <div className="text-white">
+                 <Link className=" text-lg lg:text-xl" href="/services">
+                   خدمات و محصولات
+                 </Link>
+               </div>
+               <div>
+                 <Image
+                   src="/images/icons/left-white-arrow.svg"
+                   width={15}
+                   height={15}
+                   alt="left"
+                 />
+               </div>
+               <div>
+                 <Link className=" text-lg lg:text-xl" href={pathName}>
+                   {pathNameHandler()}
+                 </Link>
+               </div>
+             </>
+             )}
+
           </div>
         </li>
       </ul>
