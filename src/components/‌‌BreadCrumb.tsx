@@ -18,6 +18,8 @@ function BreadCrumb() {
       return "تماس با ما";
     } else if (pathName == "/projects") {
       return "پروژه ها";
+    }else if (pathName=="/services"){
+      return "خدمات و محصولات"
     } else if (splitPathName.length > 2 && splitPathName[1]=="projects" ) {
       const x = `پروژه شماره `;
       const y = splitPathName[2];
