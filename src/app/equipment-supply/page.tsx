@@ -3,7 +3,10 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import BreadCrumb from "@/components/‌‌BreadCrumb";
 import React from "react";
-
+import { Metadata } from "next"
+export const metadata :Metadata = {
+    title:"تامین تجهیزات"
+}
 function EquipmentSupply() {
   return (
     <div>

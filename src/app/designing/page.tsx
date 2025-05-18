@@ -2,7 +2,10 @@ import DesigningSection from "@/components/DesigningSection"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import BreadCrumb from "@/components/‌‌BreadCrumb"
-
+import { Metadata } from "next"
+export const metadata :Metadata = {
+    title:"طراحی"
+}
 function Designing() {
   return (
 <div>

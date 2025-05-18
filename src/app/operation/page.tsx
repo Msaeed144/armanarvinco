@@ -2,7 +2,10 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import OperationSection from "@/components/OperationSection"
 import BreadCrumb from "@/components/‌‌BreadCrumb"
-
+import { Metadata } from "next"
+export const metadata :Metadata = {
+    title:"بهره برداری"
+}
 function Operation() {
   return (
 <div>

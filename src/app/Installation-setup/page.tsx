@@ -2,7 +2,10 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import InstallationSetupSectio from "@/components/InstallationSetupSection"
 import BreadCrumb from "@/components/‌‌BreadCrumb"
-
+import { Metadata } from "next"
+export const metadata :Metadata = {
+    title:"نصب و راه اندازی"
+}
 function InstallationSetup() {
   return (
 <div>

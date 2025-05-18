@@ -2,7 +2,10 @@ import ConsultingTroubleshootingSection from '@/components/ConsultingTroubleshoo
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import BreadCrumb from '@/components/‌‌BreadCrumb'
-
+import { Metadata } from "next"
+export const metadata :Metadata = {
+    title:"مشاوره و عیب یابی"
+}
 function ConsultingTroubleshooting() {
   return (
 <div>
