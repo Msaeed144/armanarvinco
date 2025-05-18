@@ -40,9 +40,9 @@ function Services() {
                 <div className="w-[1px] h-28 bg-gray-300 md:block hidden"></div>
                 <Link href="/Installation-setup">
                 <div className="w-24  h-20 flex justify-center">
-                <Image className="mr-12" src="/images/icons/launch.svg" width={60} height={60} alt="تیک" />
+                <Image className="lg:mr-12" src="/images/icons/launch.svg" width={60} height={60} alt="تیک" />
                     </div>
-                    <p className="md:text-base text-xs text-center mt-4">ساخت، نصب و راه اندازی</p>
+                    <p className="md:text-base text-[10px] text-center mt-4">ساخت، نصب و راه اندازی</p>
                 </Link>
                 <div className="w-[1px] h-28 bg-gray-300 md:block hidden"></div>
                 <Link href="/operation">

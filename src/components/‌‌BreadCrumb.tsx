@@ -28,6 +28,8 @@ function BreadCrumb() {
       return "بهره برداری"
     }else if (pathName == "/consulting-troubleshooting"){
       return "مشاوره و عیب یابی"
+    }else if (pathName == "/services"){
+      return "خدمات و محصولات"
     } else if (splitPathName.length > 2) {
       const x = `پروژه شماره `;
       const y = splitPathName[2];

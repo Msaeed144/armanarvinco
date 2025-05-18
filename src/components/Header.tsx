@@ -19,6 +19,9 @@ function Header() {
           <li>
             <Link href="/projects">پروژه ها</Link>
            </li>
+           <li>
+           <Link href="/services">خدمات و محصولات</Link>
+           </li>
           <li>
             <Link href='/about-us '> درباره ما</Link>
           </li>
@@ -33,8 +36,10 @@ function Header() {
           </li>
           <li className="my-4">
           <Link href="/projects">پروژه ها</Link>
-
           </li>
+          <li>
+           <Link href="/services">خدمات و محصولات</Link>
+           </li>
           <li className="my-4">
             <Link href='/about-us'> درباره ما</Link>
           </li>
