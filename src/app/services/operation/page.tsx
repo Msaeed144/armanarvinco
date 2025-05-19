@@ -15,7 +15,7 @@ function Operation() {
           <div className=" absolute top-0 w-full">
             <Header />
             <div className="mt-16 lg:px-24 px-3 text-white">
-              <h3 className="font-bold text-2xl lg:text-4xl">طراحی</h3>
+              <h3 className="font-bold text-2xl lg:text-4xl">بهره برداری</h3>
             </div>
             <div className="lg:px-24 px-3 mt-6">
               <BreadCrumb />
