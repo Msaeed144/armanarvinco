@@ -24,8 +24,8 @@ function InstallationSetup() {
         </div>
       </div>
       <div>
-        <div className="mb-6">
-          <InstallationSetupSectio />
+      <div className="mb-6 lg:p-0 p-4">
+      <InstallationSetupSectio />
         </div>
         <Footer />
       </div>

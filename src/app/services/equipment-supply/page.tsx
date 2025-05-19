@@ -25,8 +25,8 @@ function EquipmentSupply() {
         </div>
       </div>
       <div>
-        <div className="mb-6">
-          <EquipmentSupplySection />
+      <div className="mb-6 lg:p-0 p-4">
+      <EquipmentSupplySection />
         </div>
         <Footer />
       </div>

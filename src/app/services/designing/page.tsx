@@ -24,8 +24,8 @@ function Designing() {
         </div>
       </div>
       <div>
-        <div className="mb-6">
-          <DesigningSection />
+      <div className="mb-6 lg:p-0 p-4">
+      <DesigningSection />
         </div>
         <Footer />
       </div>

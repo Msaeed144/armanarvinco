@@ -24,7 +24,7 @@ function ConsultingTroubleshooting() {
         </div>
       </div>
       <div>
-        <div className="mb-6">
+        <div className="mb-6 lg:p-0 p-4">
           <ConsultingTroubleshootingSection />
         </div>
         <Footer />

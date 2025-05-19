@@ -24,8 +24,8 @@ function Operation() {
         </div>
       </div>
       <div>
-        <div className="mb-6">
-          <OperationSection />
+      <div className="mb-6 lg:p-0 p-4">
+      <OperationSection />
         </div>
         <Footer />
       </div>
