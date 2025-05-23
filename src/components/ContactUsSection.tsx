@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 function ContactUsSection() {
   return (
-    <div className="lg:p-0 p-4">
+    <div className="lg:p-0 p-4 my-20">
       <div className=" lg:container mx-auto mt-8">
         <div className="lg:flex gap-16">
           <div className=" lg:mr-24 mr-0 lg:w-2/5">
@@ -18,9 +18,7 @@ function ContactUsSection() {
             <div className="mt-3 lg:mr-6">
               <h4 className=" text-xl my-4">با ما در ارتباط با شید...</h4>
               <p>
-                با هر یک از راه های زیر می توانید با ما در ارتباط باشید و از
-                خدمات شرکت ما بهره ببیرید.
-              </p>
+                با هر یک از راه های زیر می توانید با ما در ارتباط باشید.</p>
               <div>
                 <div className="flex items-center my-6">
                   <div className="p-3 bg-primary rounded-2xl w-16">
@@ -64,6 +62,24 @@ function ContactUsSection() {
                   <div className="lg:mr-8 mr-2">
                     <p className="mb-2">لینکدین</p>
                     <Link href="https://www.linkedin.com/company/arman-arvin-partak/"><p className="text-gray-500">arman-arvin-partak@</p></Link>
+                    
+                  </div>
+                </div>
+                <hr className=" opacity-30" />
+
+                <div className="flex items-center my-6">
+                  <div className="p-2 bg-primary rounded-2xl w-16">
+                    <Image
+                      src="/images/icons/instagram-white.svg"
+                      width={50}
+                      height={50}
+                      alt="تماس تلفنی"
+                    />
+                  </div>
+                  <div className="lg:mr-8 mr-2">
+                    <p className="mb-2">اینستاگرام</p>
+                    <Link               href="https://www.instagram.com/arman.arvin.co/"
+                    ><p className="text-gray-500">arman.arvin.co@</p></Link>
                     
                   </div>
                 </div>

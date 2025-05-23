@@ -22,7 +22,7 @@ function Footer() {
       <div className=" md:flex justify-between text-white">
         <div className="flex md:gap-20 gap-4">
           <div>
-            <p className="font-bold text-sm md:text-xl">دسترسی سریع</p>
+            <p className="font-bold text-sm md:text-xl text-primary">دسترسی سریع</p>
             <Link className=" block my-3" href="/">
               خانه
             </Link>
@@ -37,7 +37,7 @@ function Footer() {
             </Link>
           </div>
           <div>
-            <p className=" font-bold text-sm md:text-xl">پیوند های مرتبط</p>
+            <p className=" font-bold text-sm md:text-xl text-primary">پیوند های مرتبط</p>
             <Link className="md:text-base text-sm block my-3" href="https://www.sanganco.ir/">
               مجتمع فولاد سنگان
             </Link>
@@ -62,7 +62,7 @@ function Footer() {
           <div>
           <p className="md:mt-4 md:text-base text-sm mt-10">
             ما متعهد به ارائه راهکارهای صنعتی شخصی‌سازی‌شده در حوزه آب و فاضلاب
-            هستیم هستیم.
+            هستیم.
           </p>
           <div className=" flex gap-4 justify-end px-8 py-2 ">
             <Link

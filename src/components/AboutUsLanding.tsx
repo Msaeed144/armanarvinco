@@ -14,7 +14,7 @@ function AboutUsLanding() {
       </div>
       <div className="w-full pt-28 pb-20 lg:pb-0 lg:px-0 px-4">
         <div className=" lg:container lg:mx-auto lg:flex flex-row-reverse justify-center">
-          <div className="lg:w-1/2 text-right">
+          <div className="lg:w-1/2 text-right pl-8">
             <div className="flex gap-1">
               <Image
                 src="/images/icons/tick.svg"
@@ -26,25 +26,25 @@ function AboutUsLanding() {
             </div>
             <h3 className=" text-2xl md:text-4xl my-8">شرکت مهندسی آرمان آروین پارتاک</h3>
             <p className=" text-xl md:text-2xl font-bold my-8">طراحی و مهندسی، مشاوره و عیب یابی </p>
-            <p className=" font-light my-8 text-justify">شرکت آرمان آروین پارتاک توسط جمعی از متخصصین صنعت آب و فاضلاب کشور تاسیس گردید و با تکیه بر تجارب و دانش فنی خود با هدف ارائه خدمات نوین در زمینه تصفیه آب، پساب و فاضلاب، شیرین سازی آب‌های لب شور و آب دریا و بازچرخانی پساب صنایع مختلف نفتی (پالایشگاهی و پتروشیمی)، فولادی، نیروگاهی، شهرک‌های صنعتی، صنایع تخصصی مانند داروسازی و نساجی، اقدام به ارائه خدمات مهندسی، بازرگانی، ساخت، اجرا و بهره برداری فعالیت می کند</p>
+            <p className=" font-light my-8 text-justify">شرکت آرمان آروین پارتاک توسط جمعی از متخصصین صنعت آب و فاضلاب کشور تاسیس گردید و با تکیه بر تجارب و دانش فنی خود با هدف ارائه خدمات نوین در زمینه تصفیه آب، پساب و فاضلاب، شیرین سازی آب‌های لب شور و آب دریا و بازچرخانی پساب صنایع مختلف نفتی (پالایشگاهی و پتروشیمی)، فولادی، نیروگاهی، شهرک‌های صنعتی، صنایع تخصصی مانند داروسازی و نساجی، اقدام به ارائه خدمات مهندسی، بازرگانی، ساخت، اجرا و بهره برداری فعالیت می نماید</p>
             <div className="flex mt-10">
                 <div>
                 <ul className="mt-5">
-                    <li className="flex gap-2 my-3">
+                    <li className="flex gap-2 my-3 ">
                         <Image src="/images/icons/tick.svg" width={17} height={17} alt="تیک"/>
-                        <p className="font-extralight text-sm">طراحی، مشاوره و عیب یابی</p>
+                        <p className=" text-sm ">طراحی، مشاوره و عیب یابی</p>
                     </li>
                     <li className="flex gap-2 my-3">
                         <Image src="/images/icons/tick.svg" width={17} height={17} alt="تیک"/>
-                        <p className="font-extralight text-sm">تامین تجهیزات هیدروکمانیکال در حوزه آب</p>
+                        <p className=" text-sm">تامین تجهیزات هیدرومکانیکال در حوزه آب</p>
                     </li>
                     <li className="flex gap-2 my-3">
                         <Image src="/images/icons/tick.svg" width={17} height={17} alt="تیک"/>
-                        <p className="font-extralight text-sm">ساخت پکیج های نمک زدایی، فیلتراسیون و تولید آب دمین</p>
+                        <p className=" text-sm">ساخت پکیج های نمک زدایی، فیلتراسیون و تولید آب دمین</p>
                     </li>
                     <li className="flex gap-2 my-3">
                         <Image src="/images/icons/tick.svg" width={17} height={17} alt="تیک"/>
-                        <p className="font-extralight text-sm">اجرای پروژه‌های تصفیه آب، پساب و فاضلاب های صنعتی و بهداشتی</p>
+                        <p className=" text-sm">اجرای پروژه‌های تصفیه آب، پساب و فاضلاب های صنعتی و بهداشتی</p>
                     </li>
                 </ul>
                 <Link href="/projects" className="flex bg-primary w-fit p-0.5 rounded-md cursor-pointer mt-5">
@@ -54,7 +54,7 @@ function AboutUsLanding() {
                 </div>
 
                 <div className="w-44 h-44 z-10 bg-[#F5F5F5] rounded-lg p-4 mr-5 mt-3 ">
-                    <p className="text-center text-5xl mt-3 mb-6 text-primary">71+</p>
+                    <p className="text-center text-5xl mt-3 mb-6 text-primary">20+</p>
                     <p className=" text-center font-bold text-base md:text-lg ">پروژه انجام شده</p>
                 </div>
             </div>

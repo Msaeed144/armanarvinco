@@ -14,7 +14,7 @@ function Services() {
                     <p className=" font-bold text-white text-xl">خدمات</p>
                 </div>
                 <div className="md:block flex items-center ">
-                    <h4 className=" md:my-2 md:ml-0 ml-4 text-lg md:text-4xl text-white">خدمات طراحی، ساخت و اجرا در حوزه</h4>
+                    <h4 className=" md:my-2 md:ml-0 ml-4 text-lg md:text-4xl text-white"> طراحی، ساخت و اجرا در حوزه</h4>
                     <h5 className=" md:mt-6 text-xl md:text-4xl text-white font-bold">آب، پساب و فاضلاب</h5>
                 </div>
             </div>
