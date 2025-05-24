@@ -3,14 +3,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useEffect } from "react";
 
 function BreadCrumb() {
   const pathName = usePathname();
   const splitPathName = pathName.split("/");
-  useEffect(() => {
-    console.log(splitPathName);
-  }, []);
+
   const pathNameHandler = () => {
     if (pathName == "/about-us") {
       return "درباره ما";
