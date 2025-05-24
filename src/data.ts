@@ -76,7 +76,8 @@ export const projects = [
             "/images/projects/project7-1.jpg",
 
         ]
-    },{
+    },
+    {
         id:1008,
         title:"طراحی پل سرریز بند آبخیزداری روستای درکاه بشاگرد ",
         description:"به طول دهانه 14 متر",
@@ -95,7 +96,8 @@ export const projects = [
             "/images/projects/project9-1.jpg",
 
         ]
-    },{
+    },
+    {
         id:1010,
         title:"طراحی و آنالیز تنش با نرم افزارهای FEM دریچه های استاپلاگ و تیر بالابر مجرای رسوبگیر سد درالوک کشور عراق ",
         description:"به عرض های 2.5 و 3.5 و ارتفاع 10 متر",
