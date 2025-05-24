@@ -69,7 +69,7 @@ function Header() {
           ></div>
         </div>
 
-        <div>
+        <Link href="/">
           <Image
           className="ml-4"
             src="/images/pics/header-logo.png"
@@ -77,7 +77,7 @@ function Header() {
             height={60}
             alt="logo"
           />
-        </div>
+        </Link>
       </div>
     </div>
   );
