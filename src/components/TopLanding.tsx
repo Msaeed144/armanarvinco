@@ -13,8 +13,8 @@ function TopLanding() {
         <div className=" text-white z-10  ml-12">
           <h1 className="lg:mr-0  mr-4 lg:text-5xl text-[18px] font-extrabold">شرکت مهندسی آرمان آروین پارتاک</h1>
           <p className="lg:text-xl text-sm mt-4 lg:mr-0  mr-4">طراحی، ساخت و اجرای سیستم های تصفیه آب و پساب</p>
-          <div className="flex justify-end mt-4 ml-12">
-            <Link href="/projects" className="flex bg-primary w-fit p-0.5 rounded-md cursor-pointer">
+          <div className="md:flex hidden justify-end mt-4 ml-12">
+            <Link href="/projects" className="flex bg-primary w-fit p-0.5 rounded-md cursor-pointer z-0">
               <Image src="/images/icons/up-right-arrow.svg" width={30} height={30} alt="فلش" />
               <span className="py-1 px-2 rounded-md bg-white text-black text-lg font-light">پروژه های ما</span>
             </Link>

@@ -24,7 +24,7 @@ function Header() {
           <li><Link href="/contact-us">تماس با ما</Link></li>
         </ul>
 
-        <div className={`z-20 w-72 h-screen ${hamber ? "block" : "hidden"} transition-all bg-white absolute -right-4 top-0`}>
+        <div className={`z-20 w-72 h-screen ${hamber ? "block" : "hidden"} z-50 transition-all bg-white absolute -right-4 -top-5`}>
           <ul className="items-center gap-12 text-xl mt-[6.5rem] mr-8 text-primary">
             <li className="mb-4 mt-8"><Link href="/">خانه</Link></li>
             <li className="my-4"><Link href="/projects">پروژه ها</Link></li>
@@ -35,7 +35,7 @@ function Header() {
         </div>
 
         <div
-          className="md:hidden z-40 block cursor-pointer mt-8 mr-4"
+          className="md:hidden z-50 block cursor-pointer mt-8 mr-4"
           onClick={() => setHamber(!hamber)}
         >
           <div className={`w-7 my-1 h-1 rounded-md transition-all duration-300 ${hamber ? "rotate-45 translate-y-2 bg-primary" : "bg-white"}`}></div>

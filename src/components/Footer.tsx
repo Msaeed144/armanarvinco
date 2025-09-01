@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className=" md:p-24 p-4 relative bg-[#222222]">
+    <div className=" md:p-24 p-4 relative bg-[#919191]">
       <div className=" absolute bottom-0 left-0">
         <Image
           src="/images/pics/footer-back.png"
@@ -11,7 +11,7 @@ function Footer() {
           alt="فوتر"
         />
       </div>
-      <div className="text-white">
+      <div className="text-gray-700">
         <h4 className=" text-3xl">آماده همکاری با ما هستید؟</h4>
         <p className="my-8 leading-6">
           به ما بپیوندید تا راهکارهای صنعتی پیشرفته‌ای را تجربه کنید که نوآوری و
@@ -21,7 +21,7 @@ function Footer() {
       </div>
       <div className=" md:flex justify-between text-white">
         <div className="flex md:gap-20 gap-4">
-          <div>
+          <div className="text-gray-700">
             <p className="font-bold text-sm md:text-xl text-primary">دسترسی سریع</p>
             <Link className=" block my-3" href="/">
               خانه
@@ -38,13 +38,13 @@ function Footer() {
           </div>
           <div>
             <p className=" font-bold text-sm md:text-xl text-primary">پیوند های مرتبط</p>
-            <Link className="md:text-base text-sm block my-3" href="https://www.sanganco.ir/">
+            <Link className="md:text-base text-sm block my-3 text-gray-700" href="https://www.sanganco.ir/">
               مجتمع فولاد سنگان
             </Link>
-            <Link className=" block my-3" href="https://aftabor.com/">
+            <Link className=" block my-3 text-gray-700" href="https://aftabor.com/">
               پالایشگاه نفت آفتاب
             </Link>
-            <Link className=" block my-3" href="https://isipo.ir/">
+            <Link className=" block my-3 text-gray-700" href="https://isipo.ir/">
               شرکت شهرک های صنعتی
             </Link>
           </div>
@@ -57,10 +57,10 @@ function Footer() {
               height={60}
               alt="logo"
             />
-            <p className="font-bold text-lg md:block hidden text-justify">شرکت مهندسی آرمان آروین پارتاک</p>
+            <p className="text-gray-700 font-bold text-lg md:block hidden text-justify">شرکت مهندسی آرمان آروین پارتاک</p>
           </div>
           <div>
-          <p className="md:mt-4 md:text-base text-sm mt-10">
+          <p className="md:mt-4 md:text-base text-sm mt-10 text-gray-700">
             ما متعهد به ارائه راهکارهای صنعتی شخصی‌سازی‌شده در حوزه آب و فاضلاب
             هستیم.
           </p>
