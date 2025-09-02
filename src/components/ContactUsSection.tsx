@@ -46,7 +46,7 @@ function ContactUsSection() {
                   </div>
                   <div className="lg:mr-8 mr-2">
                     <p className="mb-2">فکس</p>
-                    <p className="text-gray-500">021-888738633</p>
+                    <p className="text-gray-500">021-88873863</p>
                   </div>
                 </div>
                 <hr className=" opacity-30" />
